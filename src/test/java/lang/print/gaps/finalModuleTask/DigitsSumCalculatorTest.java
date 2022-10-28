@@ -18,7 +18,7 @@ class DigitsSumCalculatorTest extends BaseIOTest {
     void calculateSumCalculatesSumFor1111() {
         DigitsSumCalculator calculator = new DigitsSumCalculator();
 
-        calculator.calculateSum(1111);
+        calculator.calculateSum();
 
         assertEquals("4\n", updateLineSpliterators(outContent.toString()));
     }
@@ -27,7 +27,7 @@ class DigitsSumCalculatorTest extends BaseIOTest {
     void calculateSumCalculatesSumFor4567() {
         DigitsSumCalculator calculator = new DigitsSumCalculator();
 
-        calculator.calculateSum(4567);
+        calculator.calculateSum();
 
         assertEquals("22\n", updateLineSpliterators(outContent.toString()));
     }
